@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           
+          body {
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  height: 100vh;            /* full viewport height for vertical centering */
+  text-align: center;       /* optional: center text inside */
+}
+
+
+
+          /* Stylish Modern Button */
+.button {
+  background: linear-gradient(135deg, #4a90e2, #357ABD);
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(53, 122, 189, 0.4);
+  transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  user-select: none;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #357ABD, #2c5ca9);
+  box-shadow: 0 8px 16px rgba(43, 95, 165, 0.6);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  background: linear-gradient(135deg, #2c5ca9, #234a7a);
+  box-shadow: 0 4px 8px rgba(23, 55, 95, 0.8);
+  transform: translateY(1px);
+}
+
+.button:focus {
+  outline: 3px solid #90caf9;
+  outline-offset: 2px;
+}
+
+        </style>
+    </head>
+    <body>
+        <a class="button" href="https://ntezielyse.wixsite.com/bravtech" target="_blank" rel="noopener noreferrer">BravTech</a>
+    </body>
+</html>
